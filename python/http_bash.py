@@ -3,7 +3,7 @@ import socketserver
 import subprocess
 import urllib.parse
 
-PORT = 8080
+PORT = 7979
 
 class CommandHandler(http.server.SimpleHTTPRequestHandler):
     def do_GET(self):
